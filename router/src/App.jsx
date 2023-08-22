@@ -1,11 +1,11 @@
-import { useState } from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
 import HomePage from "./Components /HomePage";
 import Navbar from "./Components /Navbar";
 import Blue from "./Components /Blue";
 import Red from "./Components /Red";
 import Footer from "./Components /Footer";
+import "./App.css";
+
 
 function App() {
   return (
