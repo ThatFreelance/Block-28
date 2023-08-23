@@ -16,7 +16,6 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/Blue" element={<Blue />} />
           <Route path="/Red" element={<Red />} />
-          <Route path="/Footer" element={Footer}></Route>
         </Routes>
       </div>
       <Footer />
